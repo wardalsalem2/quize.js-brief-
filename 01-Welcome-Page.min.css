@@ -1,4 +1,4 @@
- @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
 :root {
   --nav-bar-color: #9bd3d3;
@@ -154,7 +154,7 @@ main {
   position: fixed;
   top: 0;
   left: -250px;
-  width: 250px;
+  width: 150px;
   height: 100%;
   background-color: #333;
   color: white;
@@ -183,20 +183,7 @@ main {
 .mobile-only {
   display: none;
 }
-.btn_video{
-  background-color: #9bd3d3;
-  border: none;
-  color: black;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: bold;
-  margin-bottom: 20px;
-  cursor: pointer;
-  border-radius: 10px;
-}
+
 
 @media (max-width: 1200px) {
   .welcome-text-paras:first-child {
@@ -277,9 +264,7 @@ main {
     width: 100%;
     margin-bottom: 20px;
   }
-  .btn_video{
-    margin-bottom: 50px;
-    padding: 10px 12px;
-    font-size: 0.7rem;
+  #sidebar{
+    width: 130px;
   }
 } 
